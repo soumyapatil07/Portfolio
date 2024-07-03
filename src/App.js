@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Component/Header/header';
 import Sections from './Component/body/Sections';
+import Skills from './Component/body/skills/skills';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 
       <Header/>
       <Sections/>
+      <Skills/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
