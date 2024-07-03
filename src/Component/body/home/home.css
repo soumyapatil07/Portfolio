@@ -1,0 +1,62 @@
+/*home section*/
+.home{
+    min-height: 100vh;
+    background-image: url("../../../../public/pictures/soumya1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.home .full-screen {
+    
+    min-height: 100vh;
+
+}
+.home .home-content{
+    
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.home .home-content .block{
+    padding: 0 35px;
+    flex: 0 0 75%;
+    max-width: 75%;
+    border-left:5px solid #D2B96D ;
+    margin-top: 50px;
+}  
+.home .home-content .block h1{
+    color: #D2B96D;
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}  
+.home .home-content .block h1{
+    color: #D2B96D;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0 0 0 -5px;
+    padding: 8px 0 0 0;
+} 
+.home .home-content .block .cv-btn{
+    padding-top: 20px;
+}
+.home .home-content .block .cv-btn a{
+    border: 1px solid #D2B96D;
+    border-radius: 4px;
+    color: #D2B96D;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent;
+} 
+.home .home-content .block .cv-btn a:hover{
+    background-color:#D2B96D ;
+    color:black;
+} 
