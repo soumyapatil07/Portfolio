@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Portfolio
+          Soumya Patil
         </a>
       </header>
     </div>
