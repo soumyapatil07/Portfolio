@@ -1,0 +1,60 @@
+/*Testimonials*/
+.testimonials{
+    padding: 100px 0px;
+    background-color:#f5f8fd ;
+   
+}
+.testimonials .testimonials-content{
+    margin-top: 20px;
+    width: 50%;
+    position: relative;
+   
+   
+}
+.testimonials .testimonials-content .test-slider .slide{
+    background-color:#ffffff;
+    margin-bottom: 15px;
+    border: 1px solid #e0dfdf;
+    padding: 40px 20px;
+    border-radius: 6px;
+    display: flex;
+    float: left;
+    margin-left: 5px;
+    height: 265px;
+        
+}
+.testimonials .testimonials-content .test-slider .first .text{
+    margin:5px; 
+   padding:5px; 
+   width: 500px; 
+   height: 150px; 
+   overflow: auto; 
+   text-align:justify; 
+} 
+
+.testimonials .testimonials-content .test-slider .one{
+   float: left;
+   position: absolute;
+   left: 100%;
+   width: 100%;
+   margin-left: 5%;
+   height: 265px;
+   
+}
+.testimonials .testimonials-content .test-slider .slide .img{
+    flex: 0 0 135px;
+    max-width: 135px; 
+   
+}
+.testimonials .testimonials-content .test-slider .slide p{
+    font-size: 14px;
+    color: #838383;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 ;
+}
+.testimonials .testimonials-content .test-slider .slide h6{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 10px;
+}

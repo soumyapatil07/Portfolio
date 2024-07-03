@@ -1,0 +1,105 @@
+/* About Me*/
+
+.about-me{
+    padding: 100px 15px;
+    background-color: #ffffff;
+}
+.about-me .section-title{
+    flex:0 0 100%;
+    max-width: 100%;
+    margin-bottom: 35px;
+}
+ .section-title h1{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 0 10px;
+    font-weight: 600;
+    position: relative;
+    
+}
+.section-title h1::before{
+    content: '';
+    height: 2px;
+    background-color:#D2B96D ;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    right: 0px;
+}
+.about-me .section-title p.small{
+    display: block;
+    font-size: 14px;
+    color: #838383;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.about-me .about-content .img{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.about-me .about-content .img img{
+    width: 100%;
+    display: block;
+}
+.about-me .about-content .text{
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+.about-me .about-content .text h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.about-me .about-content .text h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+.about-me .about-content .text h6 span{
+    color: #D2B96D;
+    font-weight: 600;
+}
+.about-me .about-content .text p{
+    font-size: 17px;
+    font-weight:400 ;
+    line-height: 30px;
+    color: #838383;
+    margin: 0 0 20px;
+    
+}
+
+.about-me .about-content .text .social-links{
+    padding-top: 40px;
+    margin-left: 50%;
+}
+
+.about-me .about-content .text .social-links a{
+    height: 30px;
+    width: 30px;
+    background-color: #000000;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 1px;
+    
+    
+}
+.about-me .about-content .text .social-links a:hover{
+    background-color: #D2B96D;
+    
+}
+.about-me .about-content .text .social-links a .fa{
+    color: #D2B96D;
+    font-size: 12px;
+   
+}
+.about-me .about-content .text .social-links a .fa:hover{
+    color: black;
+}

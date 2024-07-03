@@ -3,6 +3,10 @@ import './App.css';
 import Header from './Component/Header/header';
 import Sections from './Component/body/Sections';
 import Skills from './Component/body/skills/skills';
+import About from './Component/body/about/about';
+import Testimonials from './Component/body/testimonials/testimonials';
+import Contact from './Component/body/contact/contact';
+
 
 function App() {
   return (
@@ -11,6 +15,9 @@ function App() {
       <Header/>
       <Sections/>
       <Skills/>
+      <About/>
+      <Testimonials/>
+      <Contact/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
