@@ -12,7 +12,7 @@ const Home = () => {
               <h1>Add life to days, not days to life</h1>
               <h1></h1>
               <div className="cv-btn">
-                <a href="soumya.pdf">My CV</a>
+                <a href="/pictures/Soumya.CV.pdf">My CV</a>
               </div>
             </div>
           </div>

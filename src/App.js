@@ -6,6 +6,8 @@ import Skills from './Component/body/skills/skills';
 import About from './Component/body/about/about';
 import Testimonials from './Component/body/testimonials/testimonials';
 import Contact from './Component/body/contact/contact';
+import Footer from './Component/Footer/footer';
+import Copyright from './Component/body/copyright/copyright';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <About/>
       <Testimonials/>
       <Contact/>
+      <Footer/>
+      <Copyright/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

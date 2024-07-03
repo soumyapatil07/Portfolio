@@ -1,0 +1,32 @@
+/* footer */
+footer{
+    padding: 30px 15px;
+    background-color: #0c0c17;
+
+}
+footer .social{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    color: #D2B96D;
+    
+}
+footer .social a{
+    color: black;
+    background-color: #D2B96D;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 12px;
+}
+footer .social a:hover{
+    background-color: black;
+    color:#D2B96D;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 4px;
+}
