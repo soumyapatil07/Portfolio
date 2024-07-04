@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap&subset=latin-ext');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    max-width: 1800px;
+   
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 header{
     
@@ -26,7 +45,7 @@ header{
 
 header .row{
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
 }
 header .brand-name a{
 font-family: 'Great Vibes', cursive;
@@ -57,7 +76,7 @@ header .navbar ul{
 }
 header .navbar ul li{
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 88px;
 } 
 header .navbar ul li a{
     font-size: 15px;
