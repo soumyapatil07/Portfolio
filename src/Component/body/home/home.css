@@ -2,7 +2,7 @@
 /*home section*/
 .home{
     min-height: 100vh;
-    background-image: url("/pictures/soumya1.jpg");
+    background-image: url("../../../../public/pictures/soumya1.jpg");
     background-size: cover;
     background-position: center;
     padding: 15px;
