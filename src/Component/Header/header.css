@@ -31,15 +31,14 @@ header .row{
 header .brand-name a{
 font-family: 'Great Vibes', cursive;
 text-decoration: none;
-font-size: 24px;
+font-size: 26px;
 font-weight: 600;
 color:#D2B96D ;
 letter-spacing: 1px;
 position: relative;
+float: left;
+bottom: -49px;
 
-}
-header .fixed .brand-name a{
-   color:;
 }
 header .brand-name a::before{
     content: "";
@@ -47,9 +46,8 @@ header .brand-name a::before{
     height: 3px;
     background-color: #D2B96D;
     position: absolute;
-    
-    left: 0;
-    bottom: -4px;
+    bottom: -5px;
+    right: 0;
 }
 
 header .navbar ul{

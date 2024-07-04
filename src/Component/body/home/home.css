@@ -30,17 +30,13 @@
 .home .home-content .block h1{
     color: #D2B96D;
     font-family: 'Great Vibes', cursive;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-}  
-.home .home-content .block h1{
-    color: #D2B96D;
+    font-weight: 800;
     font-size: 60px;
     font-weight: 500;
-    margin: 0 0 0 -5px;
+    margin: 0 0 0 -578px;
     padding: 8px 0 0 0;
+    position: relative;
+    right: px;
 } 
 .home .home-content .block .cv-btn{
     padding-top: 20px;
@@ -56,6 +52,7 @@
     font-weight: 600;
     transition: all .5s ease;
     background-color: transparent;
+    float: left;
 } 
 .home .home-content .block .cv-btn a:hover{
     background-color:#D2B96D ;
