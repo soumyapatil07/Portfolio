@@ -1,6 +1,7 @@
 // src/Components/Skills.jsx
 import React from 'react';
 import './Skills.css'; // Ensure you create the corresponding CSS file
+import img from "../../../../public/pictures/work.png"
 
 const Skills = () => {
   return (
@@ -60,7 +61,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="img">
-            <img src="/pictures/work.png" alt="skills" />
+            <img src={img} alt="skills" />
           </div>
         </div>
       </div>
