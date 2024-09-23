@@ -10,7 +10,7 @@ const Home = () => {
           <div className="home-content">
             <div className="block">
               <h1>Add life to days, not days to life</h1>
-              <h1></h1>
+              
               <div className="cv-btn">
                 <a href="/pictures/Soumya.CV.pdf">My CV</a>
               </div>

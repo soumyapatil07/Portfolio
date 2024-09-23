@@ -1,7 +1,7 @@
 // src/Components/Skills.jsx
 import React from 'react';
 import './Skills.css'; // Ensure you create the corresponding CSS file
-import img from "../../../../public/pictures/work.png"
+import img from "../../../pictures/work.png"
 
 const Skills = () => {
   return (
@@ -13,15 +13,21 @@ const Skills = () => {
               <div className="section-title">
                 <h1>Professional Skills</h1>
                 <ul>
-                  <li>1+ year of professional experience across software application and website testing.</li>
-                  <li>Competitive knowledge in bug tracking tools like Jira and ClearQuest.</li>
-                  <li>Working knowledge of Eclipse, PyCharm, and Visual Studio Code.</li>
-                  <li>Understanding of Software development life cycle process.</li>
-                  <li>Prepare test setups like installing a browser and other applications.</li>
-                  <li>Reproduce the customer reported bugs and document testing steps.</li>
-                  <li>Work with development teams and other stakeholders to drive it to resolution.</li>
-                  <li>Basic coding experience of HTML 5, CSS 3.</li>
-                  <li>Working knowledge of Selenium Webdriver technologies.</li>
+                    <li>Completed over 3 years of professional experience in software application and website testing </li>
+                    <li>Coding expertise in Python</li>
+                    <li>Proficient in creating brochures using HTML, CSS, and InDesign </li>
+                    <li>Reproduce the bugs by sending API calls using postman tool </li>
+                    <li>Conducted thorough manual testing to ensure high-quality brochures </li>
+                    <li>Utilized bug tracking tools such as Jira, hubSpot and monday.com </li>
+                    <li>Collaborated closely with product managers and development teams to meet </li>
+                    <li>software quality and time deliverables </li>
+                    <li>Efficiently managed and tracked code changes </li>
+                    <li>Deep understanding of the software development life cycle process </li>
+                    <li>Expertly set up test cases and required testing environments </li>
+                    <li>Meticulously reproduced and reported bugs to the respective development team by raising tickets </li>
+                    <li>Developed and maintained strong relationships with stakeholders and colleagues </li>
+                    <li>Willingness to learn </li>
+                  
                 </ul>
               </div>
             </div>
